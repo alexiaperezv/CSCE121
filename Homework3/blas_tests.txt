@@ -1,0 +1,44 @@
+// function ; inputs ; outputs
+// inputs are comma separated, in the same order as function parameters
+
+// 
+maximus ;  , 0; -1  
+maximus ; 2 3 4 5 -1 -2 , 6; 3   
+maximus ; 2 1 5 4 0.5 8 , 6; 5 
+maximus ; -2 4 -23 3 5, 5; 2   
+maximus ; 0 , 1; 0  
+sumus; 1 2 3 4 5, 5 ; 15  
+sumus;  , 0 ; 0
+
+
+
+ 
+sumus; -1 2 1 -2 , 4 ; 6
+sumus; 0 0 0 0, 4; 0
+additus ; 0, , , 0 ;  
+additus ; 2, -1 -2 -3, 4 5 6, 3 ; 2 1 0  
+additus ; -10, 3 4 5, 8 7 9, 3 ; -22 -33 -41  
+additus ; 0, 3 2 1, 10 9 8, 3 ; 10 9 8  
+duplicus ;  4 5 6 7, 10 11 12 13, 4 ;  4 5 6 7  
+duplicus ; , ,0 ;  
+duplicus ; -4 -5 -6 -7, 10 11 12 13, 4 ;  -4 -5 -6 -7  
+multiplus ; 10 9 8 7 6 5,  1 2 3 4 5 6, 6 ; 140  
+multiplus ; 1 2 3 4, 2 0 1 -10, 4 ; -35  
+multiplus ; 1 3 5 7, 7 5 -3 -1 , 4 ; 0  
+multiplus ; , , 0 ; 0 
+norm2 ; , 0; 0  
+norm2 ; 3 4, 2 ; 5  
+norm2 ; -2 -2 -3 -2 -2, 5 ; 5 
+norm2 ; 0 0 0, 3 ; 0
+grandus ; 5, 11 10 5 2 1 0 , 6 ; 55 50 25 10 5 0  
+grandus ; 0, ,0 ; 
+grandus ; -1, 2 3 4 -5, 4; -2 -3 -4 5
+grandus ; 0, 2 3 4 -5, 4; 0 0 0 0
+swapus ; 1 2 3 4 5, 11 12 13 14 15, 5; 11 12 13 14 15, 1 2 3 4 5
+swapus ; , ,0 ; ,
+swapus ; -1 -2 -3, 1 2 3, 3; 1 2 3, -1 -2 -3
+
+
+
+
+
